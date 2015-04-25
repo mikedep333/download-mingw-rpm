@@ -163,7 +163,7 @@ def GetOptions():
 
   # Options specifiying download repository
   default_project = "windows:mingw:win32"
-  default_repository = "openSUSE_11.4"
+  default_repository = "openSUSE_13.2"
   default_repo_url = "http://download.opensuse.org/repositories/PROJECT/REPOSITORY/"
   repoOptions = OptionGroup(parser, "Specify download repository")
   repoOptions.add_option("-p", "--project", dest="project", default=default_project,
